@@ -1,0 +1,16 @@
+C:\Users\anhnb\source\repos\WindowsFormsMDIExample\WindowsFormsMDIExample\bin\Debug\netcoreapp3.1\WindowsFormsMDIExample.exe
+C:\Users\anhnb\source\repos\WindowsFormsMDIExample\WindowsFormsMDIExample\bin\Debug\netcoreapp3.1\WindowsFormsMDIExample.deps.json
+C:\Users\anhnb\source\repos\WindowsFormsMDIExample\WindowsFormsMDIExample\bin\Debug\netcoreapp3.1\WindowsFormsMDIExample.runtimeconfig.json
+C:\Users\anhnb\source\repos\WindowsFormsMDIExample\WindowsFormsMDIExample\bin\Debug\netcoreapp3.1\WindowsFormsMDIExample.runtimeconfig.dev.json
+C:\Users\anhnb\source\repos\WindowsFormsMDIExample\WindowsFormsMDIExample\bin\Debug\netcoreapp3.1\WindowsFormsMDIExample.dll
+C:\Users\anhnb\source\repos\WindowsFormsMDIExample\WindowsFormsMDIExample\bin\Debug\netcoreapp3.1\WindowsFormsMDIExample.pdb
+C:\Users\anhnb\source\repos\WindowsFormsMDIExample\WindowsFormsMDIExample\obj\Debug\netcoreapp3.1\WindowsFormsMDIExample.csprojAssemblyReference.cache
+C:\Users\anhnb\source\repos\WindowsFormsMDIExample\WindowsFormsMDIExample\obj\Debug\netcoreapp3.1\WindowsFormsMDIExample.FormMain.resources
+C:\Users\anhnb\source\repos\WindowsFormsMDIExample\WindowsFormsMDIExample\obj\Debug\netcoreapp3.1\WindowsFormsMDIExample.csproj.GenerateResource.cache
+C:\Users\anhnb\source\repos\WindowsFormsMDIExample\WindowsFormsMDIExample\obj\Debug\netcoreapp3.1\WindowsFormsMDIExample.AssemblyInfoInputs.cache
+C:\Users\anhnb\source\repos\WindowsFormsMDIExample\WindowsFormsMDIExample\obj\Debug\netcoreapp3.1\WindowsFormsMDIExample.AssemblyInfo.cs
+C:\Users\anhnb\source\repos\WindowsFormsMDIExample\WindowsFormsMDIExample\obj\Debug\netcoreapp3.1\WindowsFormsMDIExample.csproj.CoreCompileInputs.cache
+C:\Users\anhnb\source\repos\WindowsFormsMDIExample\WindowsFormsMDIExample\obj\Debug\netcoreapp3.1\WindowsFormsMDIExample.dll
+C:\Users\anhnb\source\repos\WindowsFormsMDIExample\WindowsFormsMDIExample\obj\Debug\netcoreapp3.1\WindowsFormsMDIExample.pdb
+C:\Users\anhnb\source\repos\WindowsFormsMDIExample\WindowsFormsMDIExample\obj\Debug\netcoreapp3.1\WindowsFormsMDIExample.genruntimeconfig.cache
+C:\Users\anhnb\source\repos\WindowsFormsMDIExample\WindowsFormsMDIExample\obj\Debug\netcoreapp3.1\WindowsFormsMDIExample.FrmAddPublisher.resources
