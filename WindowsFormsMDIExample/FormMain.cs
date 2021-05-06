@@ -22,21 +22,12 @@ namespace WindowsFormsMDIExample
 
         }
 
-        private void systemToolStripMenuItem_Click(object sender, EventArgs e)
+        private void addPublisherToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
             FrmAddPublisher frmAddPublisher = new FrmAddPublisher();
             frmAddPublisher.MdiParent = this;
             frmAddPublisher.Show();
-        }
-
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
-        private void menuStrip1_ItemClicked_1(object sender, ToolStripItemClickedEventArgs e)
-        {
-
         }
     }
 }

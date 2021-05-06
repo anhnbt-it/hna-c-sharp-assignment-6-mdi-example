@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anhnb\\source\\repos\\WindowsFormsMDIExample\\WindowsFormsMDIExample\\WindowsFormsMDIExample.csproj": {}
+    "C:\\Users\\anhnb\\source\\repos\\Assignment-6\\WindowsFormsMDIExample\\WindowsFormsMDIExample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anhnb\\source\\repos\\WindowsFormsMDIExample\\WindowsFormsMDIExample\\WindowsFormsMDIExample.csproj": {
+    "C:\\Users\\anhnb\\source\\repos\\Assignment-6\\WindowsFormsMDIExample\\WindowsFormsMDIExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anhnb\\source\\repos\\WindowsFormsMDIExample\\WindowsFormsMDIExample\\WindowsFormsMDIExample.csproj",
+        "projectUniqueName": "C:\\Users\\anhnb\\source\\repos\\Assignment-6\\WindowsFormsMDIExample\\WindowsFormsMDIExample.csproj",
         "projectName": "WindowsFormsMDIExample",
-        "projectPath": "C:\\Users\\anhnb\\source\\repos\\WindowsFormsMDIExample\\WindowsFormsMDIExample\\WindowsFormsMDIExample.csproj",
+        "projectPath": "C:\\Users\\anhnb\\source\\repos\\Assignment-6\\WindowsFormsMDIExample\\WindowsFormsMDIExample.csproj",
         "packagesPath": "C:\\Users\\anhnb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anhnb\\source\\repos\\WindowsFormsMDIExample\\WindowsFormsMDIExample\\obj\\",
+        "outputPath": "C:\\Users\\anhnb\\source\\repos\\Assignment-6\\WindowsFormsMDIExample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anhnb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
