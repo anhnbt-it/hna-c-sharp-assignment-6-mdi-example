@@ -7,5 +7,8 @@
     <Compile Update="FrmAddPublisher.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmNewAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

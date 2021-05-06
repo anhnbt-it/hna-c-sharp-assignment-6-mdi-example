@@ -49,7 +49,6 @@ namespace WindowsFormsMDIExample
 
                 // loadCities
                 queryString = "SELECT DISTINCT city FROM publishers WHERE city IS NOT NULL";
-                connection = new SqlConnection(connectionString);
                 dataAdapter = new SqlDataAdapter(queryString, connection);
                 dataTable = new DataTable();
                 dataAdapter.Fill(dataTable);
@@ -59,7 +58,6 @@ namespace WindowsFormsMDIExample
 
                 // loadCountries
                 queryString = "SELECT DISTINCT country FROM publishers WHERE country IS NOT NULL";
-                connection = new SqlConnection(connectionString);
                 dataAdapter = new SqlDataAdapter(queryString, connection);
                 dataTable = new DataTable();
                 dataAdapter.Fill(dataTable);

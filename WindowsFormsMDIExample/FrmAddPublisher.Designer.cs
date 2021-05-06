@@ -46,7 +46,7 @@ namespace WindowsFormsMDIExample
             // lblId
             // 
             this.lblId.AutoSize = true;
-            this.lblId.Location = new System.Drawing.Point(12, 33);
+            this.lblId.Location = new System.Drawing.Point(12, 28);
             this.lblId.Name = "lblId";
             this.lblId.Size = new System.Drawing.Size(70, 15);
             this.lblId.TabIndex = 0;
@@ -55,7 +55,7 @@ namespace WindowsFormsMDIExample
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(12, 68);
+            this.lblName.Location = new System.Drawing.Point(12, 63);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(91, 15);
             this.lblName.TabIndex = 1;
@@ -64,7 +64,7 @@ namespace WindowsFormsMDIExample
             // lblState
             // 
             this.lblState.AutoSize = true;
-            this.lblState.Location = new System.Drawing.Point(12, 103);
+            this.lblState.Location = new System.Drawing.Point(12, 98);
             this.lblState.Name = "lblState";
             this.lblState.Size = new System.Drawing.Size(33, 15);
             this.lblState.TabIndex = 2;
@@ -73,7 +73,7 @@ namespace WindowsFormsMDIExample
             // lblCity
             // 
             this.lblCity.AutoSize = true;
-            this.lblCity.Location = new System.Drawing.Point(12, 138);
+            this.lblCity.Location = new System.Drawing.Point(12, 133);
             this.lblCity.Name = "lblCity";
             this.lblCity.Size = new System.Drawing.Size(28, 15);
             this.lblCity.TabIndex = 3;
@@ -82,7 +82,7 @@ namespace WindowsFormsMDIExample
             // lblCountry
             // 
             this.lblCountry.AutoSize = true;
-            this.lblCountry.Location = new System.Drawing.Point(12, 173);
+            this.lblCountry.Location = new System.Drawing.Point(12, 168);
             this.lblCountry.Name = "lblCountry";
             this.lblCountry.Size = new System.Drawing.Size(50, 15);
             this.lblCountry.TabIndex = 4;
@@ -90,46 +90,46 @@ namespace WindowsFormsMDIExample
             // 
             // txtPublisherId
             // 
-            this.txtPublisherId.Location = new System.Drawing.Point(109, 30);
+            this.txtPublisherId.Location = new System.Drawing.Point(110, 25);
             this.txtPublisherId.Name = "txtPublisherId";
-            this.txtPublisherId.Size = new System.Drawing.Size(181, 23);
+            this.txtPublisherId.Size = new System.Drawing.Size(180, 23);
             this.txtPublisherId.TabIndex = 5;
             // 
             // txtPublisherName
             // 
-            this.txtPublisherName.Location = new System.Drawing.Point(109, 65);
+            this.txtPublisherName.Location = new System.Drawing.Point(110, 60);
             this.txtPublisherName.Name = "txtPublisherName";
-            this.txtPublisherName.Size = new System.Drawing.Size(181, 23);
+            this.txtPublisherName.Size = new System.Drawing.Size(180, 23);
             this.txtPublisherName.TabIndex = 6;
             // 
             // cboStates
             // 
             this.cboStates.FormattingEnabled = true;
-            this.cboStates.Location = new System.Drawing.Point(109, 100);
+            this.cboStates.Location = new System.Drawing.Point(110, 95);
             this.cboStates.Name = "cboStates";
-            this.cboStates.Size = new System.Drawing.Size(181, 23);
+            this.cboStates.Size = new System.Drawing.Size(180, 23);
             this.cboStates.TabIndex = 7;
             // 
             // cboCities
             // 
             this.cboCities.FormattingEnabled = true;
-            this.cboCities.Location = new System.Drawing.Point(109, 135);
+            this.cboCities.Location = new System.Drawing.Point(110, 130);
             this.cboCities.Name = "cboCities";
-            this.cboCities.Size = new System.Drawing.Size(182, 23);
+            this.cboCities.Size = new System.Drawing.Size(180, 23);
             this.cboCities.TabIndex = 8;
             this.cboCities.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // cboCountries
             // 
             this.cboCountries.FormattingEnabled = true;
-            this.cboCountries.Location = new System.Drawing.Point(109, 170);
+            this.cboCountries.Location = new System.Drawing.Point(110, 165);
             this.cboCountries.Name = "cboCountries";
-            this.cboCountries.Size = new System.Drawing.Size(182, 23);
+            this.cboCountries.Size = new System.Drawing.Size(180, 23);
             this.cboCountries.TabIndex = 9;
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(135, 205);
+            this.btnSave.Location = new System.Drawing.Point(136, 200);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 10;
@@ -139,7 +139,7 @@ namespace WindowsFormsMDIExample
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(216, 205);
+            this.btnClose.Location = new System.Drawing.Point(217, 200);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 23);
             this.btnClose.TabIndex = 11;
@@ -151,7 +151,7 @@ namespace WindowsFormsMDIExample
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(310, 245);
+            this.ClientSize = new System.Drawing.Size(304, 231);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.cboCountries);

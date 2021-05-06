@@ -109,6 +109,7 @@ namespace WindowsFormsMDIExample
             this.addAuthorToolStripMenuItem.Name = "addAuthorToolStripMenuItem";
             this.addAuthorToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.addAuthorToolStripMenuItem.Text = "Add New Author";
+            this.addAuthorToolStripMenuItem.Click += new System.EventHandler(this.addAuthorToolStripMenuItem_Click);
             // 
             // addTitleToolStripMenuItem
             // 

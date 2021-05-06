@@ -29,5 +29,12 @@ namespace WindowsFormsMDIExample
             frmAddPublisher.MdiParent = this;
             frmAddPublisher.Show();
         }
+
+        private void addAuthorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmNewAuthor frmNewAuthor = new FrmNewAuthor();
+            frmNewAuthor.MdiParent = this;
+            frmNewAuthor.Show();
+        }
     }
 }
