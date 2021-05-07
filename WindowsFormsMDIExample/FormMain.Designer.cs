@@ -116,6 +116,7 @@ namespace WindowsFormsMDIExample
             this.addTitleToolStripMenuItem.Name = "addTitleToolStripMenuItem";
             this.addTitleToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.addTitleToolStripMenuItem.Text = "Add New Title";
+            this.addTitleToolStripMenuItem.Click += new System.EventHandler(this.addTitleToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 

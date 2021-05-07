@@ -96,7 +96,7 @@ namespace WindowsFormsMDIExample
                 command.Parameters["@phone"].Value = txtPhoneNumber.Text.ToString();
 
                 command.Parameters.Add("@address", SqlDbType.VarChar);
-                command.Parameters["@address"].Value = richTxtAddress.Text.ToString();
+                command.Parameters["@address"].Value = rtbAddress.Text.ToString();
 
                 command.Parameters.Add("@city", SqlDbType.VarChar);
                 command.Parameters["@city"].Value = cboCities.SelectedValue.ToString();
@@ -108,7 +108,7 @@ namespace WindowsFormsMDIExample
                 command.Parameters["@zip"].Value = txtZip.Text.ToString();
 
                 command.Parameters.Add("@contract", SqlDbType.Bit);
-                if (cbContract.Checked)
+                if (chkContract.Checked)
                 {
                     command.Parameters["@contract"].Value = 1;
                 } else
@@ -128,6 +128,11 @@ namespace WindowsFormsMDIExample
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void FrmNewAuthor_Shown(object sender, EventArgs e)
+        {
+            Controls[0].Focus();
         }
     }
 }

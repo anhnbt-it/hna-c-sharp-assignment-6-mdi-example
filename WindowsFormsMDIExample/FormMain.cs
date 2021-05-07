@@ -36,5 +36,12 @@ namespace WindowsFormsMDIExample
             frmNewAuthor.MdiParent = this;
             frmNewAuthor.Show();
         }
+
+        private void addTitleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmNewTitle frmNewTitle = new FrmNewTitle();
+            frmNewTitle.MdiParent = this;
+            frmNewTitle.Show();
+        }
     }
 }

@@ -38,3 +38,4 @@ C:\Users\anhnb\source\repos\Assignment-6\WindowsFormsMDIExample\bin\Debug\netcor
 C:\Users\anhnb\source\repos\Assignment-6\WindowsFormsMDIExample\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\anhnb\source\repos\Assignment-6\WindowsFormsMDIExample\obj\Debug\netcoreapp3.1\WindowsFormsMDIExample.csproj.CopyComplete
 C:\Users\anhnb\source\repos\Assignment-6\WindowsFormsMDIExample\obj\Debug\netcoreapp3.1\WindowsFormsMDIExample.FrmNewAuthor.resources
+C:\Users\anhnb\source\repos\Assignment-6\WindowsFormsMDIExample\obj\Debug\netcoreapp3.1\WindowsFormsMDIExample.FrmNewTitle.resources

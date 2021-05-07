@@ -43,11 +43,11 @@ namespace WindowsFormsMDIExample
             this.txtFirstName = new System.Windows.Forms.TextBox();
             this.txtLastName = new System.Windows.Forms.TextBox();
             this.txtPhoneNumber = new System.Windows.Forms.TextBox();
-            this.richTxtAddress = new System.Windows.Forms.RichTextBox();
+            this.rtbAddress = new System.Windows.Forms.RichTextBox();
             this.txtZip = new System.Windows.Forms.TextBox();
             this.cboCities = new System.Windows.Forms.ComboBox();
             this.cboStates = new System.Windows.Forms.ComboBox();
-            this.cbContract = new System.Windows.Forms.CheckBox();
+            this.chkContract = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // lblAuthorId
@@ -170,13 +170,13 @@ namespace WindowsFormsMDIExample
             this.txtPhoneNumber.Size = new System.Drawing.Size(130, 23);
             this.txtPhoneNumber.TabIndex = 13;
             // 
-            // richTxtAddress
+            // rtbAddress
             // 
-            this.richTxtAddress.Location = new System.Drawing.Point(80, 130);
-            this.richTxtAddress.Name = "richTxtAddress";
-            this.richTxtAddress.Size = new System.Drawing.Size(130, 67);
-            this.richTxtAddress.TabIndex = 14;
-            this.richTxtAddress.Text = "";
+            this.rtbAddress.Location = new System.Drawing.Point(80, 130);
+            this.rtbAddress.Name = "rtbAddress";
+            this.rtbAddress.Size = new System.Drawing.Size(130, 67);
+            this.rtbAddress.TabIndex = 14;
+            this.rtbAddress.Text = "";
             // 
             // txtZip
             // 
@@ -201,25 +201,25 @@ namespace WindowsFormsMDIExample
             this.cboStates.Size = new System.Drawing.Size(130, 23);
             this.cboStates.TabIndex = 17;
             // 
-            // cbContract
+            // chkContract
             // 
-            this.cbContract.AutoSize = true;
-            this.cbContract.Location = new System.Drawing.Point(275, 126);
-            this.cbContract.Name = "cbContract";
-            this.cbContract.Size = new System.Drawing.Size(15, 14);
-            this.cbContract.TabIndex = 18;
-            this.cbContract.UseVisualStyleBackColor = true;
+            this.chkContract.AutoSize = true;
+            this.chkContract.Location = new System.Drawing.Point(275, 126);
+            this.chkContract.Name = "chkContract";
+            this.chkContract.Size = new System.Drawing.Size(15, 14);
+            this.chkContract.TabIndex = 18;
+            this.chkContract.UseVisualStyleBackColor = true;
             // 
             // FrmNewAuthor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(422, 238);
-            this.Controls.Add(this.cbContract);
+            this.Controls.Add(this.chkContract);
             this.Controls.Add(this.cboStates);
             this.Controls.Add(this.cboCities);
             this.Controls.Add(this.txtZip);
-            this.Controls.Add(this.richTxtAddress);
+            this.Controls.Add(this.rtbAddress);
             this.Controls.Add(this.txtPhoneNumber);
             this.Controls.Add(this.txtLastName);
             this.Controls.Add(this.txtFirstName);
@@ -235,8 +235,9 @@ namespace WindowsFormsMDIExample
             this.Controls.Add(this.lblCity);
             this.Controls.Add(this.lblAuthorId);
             this.Name = "FrmNewAuthor";
-            this.Text = "FrmNewAuthor";
+            this.Text = "Add New Author";
             this.Load += new System.EventHandler(this.FrmNewAuthor_Load);
+            this.Shown += new System.EventHandler(this.FrmNewAuthor_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -258,10 +259,10 @@ namespace WindowsFormsMDIExample
         private System.Windows.Forms.TextBox txtFirstName;
         private System.Windows.Forms.TextBox txtLastName;
         private System.Windows.Forms.TextBox txtPhoneNumber;
-        private System.Windows.Forms.RichTextBox richTxtAddress;
+        private System.Windows.Forms.RichTextBox rtbAddress;
         private System.Windows.Forms.TextBox txtZip;
         private System.Windows.Forms.ComboBox cboCities;
         private System.Windows.Forms.ComboBox cboStates;
-        private System.Windows.Forms.CheckBox cbContract;
+        private System.Windows.Forms.CheckBox chkContract;
     }
 }
