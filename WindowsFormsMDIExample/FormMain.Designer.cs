@@ -113,6 +113,7 @@ namespace WindowsFormsMDIExample
             // 
             // addTitleToolStripMenuItem
             // 
+            this.addTitleToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.addTitleToolStripMenuItem.Name = "addTitleToolStripMenuItem";
             this.addTitleToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.addTitleToolStripMenuItem.Text = "Add New Title";
@@ -358,6 +359,7 @@ namespace WindowsFormsMDIExample
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
+            this.HelpButton = true;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormMain";

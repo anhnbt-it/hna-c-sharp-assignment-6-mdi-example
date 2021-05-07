@@ -164,6 +164,7 @@ namespace WindowsFormsMDIExample
             this.Controls.Add(this.lblState);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.lblId);
+            this.HelpButton = true;
             this.Name = "FrmAddPublisher";
             this.Text = "Add New Publisher";
             this.Load += new System.EventHandler(this.FrmAddPublisher_Load);

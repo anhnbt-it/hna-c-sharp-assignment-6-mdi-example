@@ -234,6 +234,7 @@ namespace WindowsFormsMDIExample
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.lblCity);
             this.Controls.Add(this.lblAuthorId);
+            this.HelpButton = true;
             this.Name = "FrmNewAuthor";
             this.Text = "Add New Author";
             this.Load += new System.EventHandler(this.FrmNewAuthor_Load);
